@@ -13,7 +13,7 @@
   ### **Department of Electrical & Computer Engineering**
   ### **Assignments**<br>
   **Course Name:** Computer Programming<br>
-  **Course Code:** ECE 1103
+  **Course Code:** ECE 1104
 </div>
 <br>
 <div align="center">
