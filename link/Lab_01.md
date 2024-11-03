@@ -48,3 +48,47 @@ Format Specifiers : %d handle integer values for both input and output.<br>
 The program effectively sums up two numbers”<br>
 </div>
 ----------
+
+
+
+## **Experiment No : 02**
+
+## **Experiment Name : Write a C program to convert specified days into years, weeks and days (Note: Ignore leap year.).**
+
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the mathematical Operation :** Taking input as dates converting it into day,weeks,years.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include <stdio.h>
+#include <math.h>
+int main(){
+int d,w,y,r;
+printf("Enter the number of days\t");
+scanf("%d",&d);
+y=d/365;
+w=(d%365)/7;
+r=(d%365)%7;
+printf("%d number of year\n",y);
+printf("%d number of weeks\n",w);
+printf("%d number of days\n",r);
+return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/g96JcsD/year-converter.png" alt="year-converter" border="0"></a>
+</p>
+
+--------------
