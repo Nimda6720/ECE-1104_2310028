@@ -135,3 +135,51 @@ int main() {
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/fG23Gc2/Distance.png" alt="Distance" border="0"></a>
 </p>
+
+-------------
+
+
+## **Experiment No : 04**
+
+## **Experiment Name : Write a C program that accepts two item's weight and number of purchases (floating point values) and calculates their average value.**
+
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the mathematical Operation :** Taking input as axises as input and figuring average using those value.<br>
+- **Displaying the Result :** The result can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include <stdio.h>
+#include <math.h>
+int main(){
+    int i1,i2,n1,n2;
+    float average;
+    printf("weight and number of purchases of first item\n");
+    scanf("%d %d", &i1, &n1);
+    printf("weight and number of purchases of second item\n");
+    scanf("%d %d", &i2, &n2);
+    average=((i1*n1)+(i2*n2))/(n1+n2);
+    printf("%f", average);
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/ypnffKX"><img src="https://i.ibb.co.com/3vyrrV7/average-market.png" alt="average-market" border="0"></a>
+</p>
+
+## **Discussion :**
+<div align="justify">
+I couldn't figure out why I wasn't getting decimals after the main value. Though I used float data type for declaring average variable, result was only shown in integer form.
+</div>
