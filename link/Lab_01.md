@@ -183,3 +183,57 @@ int main(){
 <div align="justify">
 I couldn't figure out why I wasn't getting decimals after the main value. Though I used float data type for declaring average variable, result was only shown in integer form.
 </div>
+------------
+
+## **Experiment No : 05**
+
+## **Experiment Name : Check if a given number is prime or not .**
+
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the mathematical Operation :** Taking input as axises as input and figuring distance using those value.<br>
+- **Displaying the Result :** The result can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main(){
+   int num,i;
+   int prime=1;
+   printf("Enter your number\t");
+   scanf("%d",&num);
+   if (num<=1){
+    prime=0;
+    }
+    else{
+        for(i=2; i<=num/2; i++){
+            if (num%i==0){
+            prime=0;
+            break;
+        }
+      }
+    }
+    if (prime){
+        printf("Number is prime");
+        }else{
+            printf("Number is not prime");
+        }
+    return 0;
+   }
+
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/rMhcmXj/Not-Prime.png" alt="Not-Prime" border="0"></a>
+<a href="https://ibb.co.com/PYLTyWD"><img src="https://i.ibb.co.com/Jd1xTp3/Prime.png" alt="Prime" border="0"></a>
+</p>
