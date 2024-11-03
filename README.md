@@ -47,7 +47,7 @@
 
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
-| 01 |                    I   will   Update   ASAP.                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md )
+| 01 |                    LAB 1                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md )
 
 
 </div>
