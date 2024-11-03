@@ -114,24 +114,24 @@ return 0;
 ## **Code :**
 ```C
 #include <stdio.h>
-#include<math.h>
-int main(){
-printf("enter first co-ordinates\n");
-int X,Y,x1,y1,x2,y2;
-float distance;
-X=x2-x1;
-Y=y2-y1;
-scanf("%d%d",&x1,&y1);
-printf("enter second co-ordinates\n");
-scanf("%d%d",&x2,&y2);
-distance=sqrt(pow(X,2)+pow(Y,2));
-printf("%f",distance);
-return 0;
+#include <math.h>
+int main() {
+    int x1,y1,x2,y2;
+    float distance;
+    printf("Enter first coordinates: ");
+    scanf("%d %d",&x1,&y1);
+    printf("Enter second coordinates: ");
+    scanf("%d %d",&x2,&y2);
+    int X = x2-x1;
+    int Y = y2-y1;
+    distance = sqrt(pow(X,2) + pow(Y,2));
+    printf("Distance: %f\n",distance);
+    return 0;
 }
 
 ```
 
 ## **Output :**
 <p align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/tbGv1Mt/distance.png" alt="distance" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/fG23Gc2/Distance.png" alt="Distance" border="0"></a>
 </p>
