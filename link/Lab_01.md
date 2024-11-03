@@ -92,3 +92,46 @@ return 0;
 </p>
 
 --------------
+
+
+## **Experiment No : 03**
+
+## **Experiment Name : Write a C program to calculate the distance between two points..**
+
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the mathematical Operation :** Taking input as axises as input and figuring distance using those value.<br>
+- **Displaying the Result :** The result can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include <stdio.h>
+#include<math.h>
+int main(){
+printf("enter first co-ordinates\n");
+int X,Y,x1,y1,x2,y2;
+float distance;
+X=x2-x1;
+Y=y2-y1;
+scanf("%d%d",&x1,&y1);
+printf("enter second co-ordinates\n");
+scanf("%d%d",&x2,&y2);
+distance=sqrt(pow(X,2)+pow(Y,2));
+printf("%f",distance);
+return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/tbGv1Mt/distance.png" alt="distance" border="0"></a>
+</p>
