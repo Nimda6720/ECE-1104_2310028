@@ -237,3 +237,45 @@ int main(){
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/rMhcmXj/Not-Prime.png" alt="Not-Prime" border="0"></a>
 <a href="https://ibb.co.com/PYLTyWD"><img src="https://i.ibb.co.com/Jd1xTp3/Prime.png" alt="Prime" border="0"></a>
 </p>
+---------------
+
+
+## **Experiment No : 06**
+
+## **Experiment Name : Add the sum of all even numbers (range:1-100).**
+
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the mathematical Operation :** Taking input as axises as input and figuring distance using those value.<br>
+- **Displaying the Result :** The result can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include <stdio.h>
+int main(){
+   int s;
+   s=0;
+   for(int i=1;i<=100; i++){
+    if(i%2==0){
+        s+=i;
+    }
+   }
+   printf("The sum is\t%d",s);
+   return 0;
+   }
+
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/mCHD2t1/even-sum.png" alt="even-sum" border="0"></a>
+</p>
