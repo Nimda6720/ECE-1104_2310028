@@ -44,3 +44,44 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/S6T9G8L/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://usefulwebtool.com/'>font style copy paste</a><br />
 </p>
+-----------------------
+----------
+## **Experiment No : 02**
+
+## **Experiment Name : write a C program in C to find the number and sum of all integers between 100 and 200 which are divisible by 9.
+
+## **Submission Date : 7 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int i,sum;
+    for(i=100; i<=200 ; i++)
+    {
+        if(i%9==0)
+        printf("%d\t",i);
+    }
+        sum+=i;
+        printf("\nThe sum is\t%d",sum);
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/1bG6scT"><img src="https://i.ibb.co.com/7bt4ghK/image.png" alt="image" border="0"></a>
+</p>
+
