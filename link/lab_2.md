@@ -84,4 +84,50 @@ int main()
 <p align="center">
 <a href="https://ibb.co.com/1bG6scT"><img src="https://i.ibb.co.com/7bt4ghK/image.png" alt="image" border="0"></a>
 </p>
+------------------------------
+## **Experiment No : 02**
 
+## **Experiment Name : write a C program that calculates the sum of all even and odd numbers from 1 to 50 using do while loop .
+
+## **Submission Date : 7 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+  int a=1,even=0,odd=0;
+  do
+  {
+    a++;
+    if(a%2==0)
+    {
+        even+=a;
+    }
+    else
+    {
+        odd+=a;
+    }
+  }while(a<=50);
+  printf("Sum of all even numbers:\t%d",even);
+  printf("\nSum of all odd numbers:\t%d",odd);
+    return 0;
+}
+
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Qk4mhpq/image.png" alt="image" border="0"></a>
+</p>
