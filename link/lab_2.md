@@ -132,3 +132,58 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Qk4mhpq/image.png" alt="image" border="0"></a>
 </p>
+------------------------------
+
+## **Experiment No : 04**
+
+## **Experiment Name : write a C program to find the largest of these numbers.
+
+## **Submission Date : 7 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter the first number\t");
+scanf("%d",&a);
+printf("\nEnter the second number\t");
+scanf("%d",&b);
+printf("\nEnter the third number\t");
+scanf("%d",&c);
+printf("\nFirst number=%d  Second number=%d   Third number=%d",a,b,c);
+if(a>b && a>c)
+{
+    printf("\nFirst number is the biggest");
+}
+else if (b>a && b>c)
+{
+    printf("\nSecond number is the biggest");
+}
+else
+{
+    printf("\nThird number is the biggest");
+}
+
+    return 0;
+}
+
+
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/m43qnkn/image.png" alt="image" border="0"></a>
+</p>
