@@ -48,6 +48,6 @@
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
 | 01 |                    LAB 1                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md )
-| 02 |                    LAB 2                   | [Lab_01](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )
+| 02 |                    LAB 2                   | [Lab_02](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )
 
 </div>
