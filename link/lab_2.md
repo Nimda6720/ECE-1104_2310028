@@ -86,7 +86,7 @@ int main()
 </p>
 ------------------------------
 
-## **Experiment No : 02**
+## **Experiment No : 03**
 
 ## **Experiment Name : write a C program that calculates the sum of all even and odd numbers from 1 to 50 using do while loop .
 
