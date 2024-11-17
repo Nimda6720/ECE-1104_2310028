@@ -158,7 +158,7 @@ int main()
 </p>
 -----------------
 
-## **Experiment No : 03**
+## **Experiment No : 04**
 
 ## **Experiment Name : Prinitng Lower part of a diamond**
 
@@ -261,4 +261,50 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/sFNKP2D/image.png" alt="image" border="0"></a>
 </p>
+----------------------------
 
+## **Experiment No : 06**
+
+## **Experiment Name : Prinitng a rombhus**
+
+## **Submission Date : 17 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int rows,space,columns;
+    printf("Number of rows you want to print\t");
+    scanf("%d",&rows);
+    for( int i=1; i<=rows ; i++)
+    {
+        for(space=1 ; space<=i ; space++)
+        {
+            printf(" ");
+        }
+        for(int j=1; j<=rows; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/KG4XxTB/image.png" alt="image" border="0"></a>
+</p>
