@@ -308,3 +308,140 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/KG4XxTB/image.png" alt="image" border="0"></a>
 </p>
+--------------------------------
+
+## **Experiment No : 07**
+
+## **Experiment Name : Prinitng Left Half Pyramid**
+
+## **Submission Date : 17 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int rows;
+    printf("Number of rows you want to print?\t");
+    scanf("%d",&rows);
+    for(int i=1; i<=rows; i++)
+    {
+        for(int space=1; space<=rows-i; space++)
+        {
+            printf(" ");
+        }
+        for(int stars=1; stars<=i; stars++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+     return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/GQhdnCW/image.png" alt="image" border="0"></a>
+</p>
+----------------------------
+
+## **Experiment No : 08**
+
+## **Experiment Name : Prinitng Inverted Left Half Pyramid**
+
+## **Submission Date : 17 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int rows;
+    printf("Number of rows you want to print?\t");
+    scanf("%d",&rows);
+    for(int i=1; i<=rows; i++)
+    {
+        for(int space=1; space<=i; space++)
+        {
+            printf(" ");
+        }
+        for(int stars=1; stars<=rows-i; stars++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+     return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/2vP4JH9/image.png" alt="image" border="0"></a>
+</p>
+----------------------
+
+## **Experiment No : 07**
+
+## **Experiment Name : Prinitng Inverted Right Half Pyramid**
+
+## **Submission Date : 17 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int rows;
+    printf("Number of rows you want to print?\t");
+    scanf("%d",&rows);
+    for(int i=1; i<=rows; i++)
+    {
+        for(int stars=1; stars<=rows-i; stars++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+     return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/N65K164/image.png" alt="image" border="0"></a>
+</p>
