@@ -284,5 +284,60 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xFx1Vp7/image.png" alt="image" border="0"></a>
 </p>
+------------------------------------
+
+## **Experiment No : 06**
+
+## **Experiment Name : Write a program in C to find the smallest missing element in a sorted array. Expected Output : 
+The given array is : 0 1 3 4 5 6 7 9 
+The missing smallest element is: 2 
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h> //a[i]!=i, print i, break.
+int main()
+{
+    int n;
+    printf("Number of inputs? : ");
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0; i<n; i++)
+    {
+        printf("Element %d- ",i);
+        scanf("%d",&a[i]);
+    }
+    printf("The missing smallest elemnt is:\n");
+    for(int i=0; i<n; i++)
+    {
+        if (a[i]!=i)
+        {
+            printf("%d",i);
+            break;
+        }
+    }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/QrNbGgS/image.png" alt="image" border="0"></a>
+</p>
+
 
 
