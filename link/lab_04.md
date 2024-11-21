@@ -208,4 +208,81 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xSZ3vyF/image.png" alt="image" border="0"></a>
 </p>
+-------------------------------------
+
+
+## **Experiment No : 05**
+
+## **Experiment Name :Write a program in C to separate odd and even integers into separate arrays. 
+
+Test Data : 
+Input the number of elements to be stored in the array :5 
+Input 5 elements in the array : 
+element - 0 : 25 
+element - 1 : 47 
+element - 2 : 42 
+element - 3 : 56 
+element - 4 : 32 
+Expected Output : 
+The Even elements are : 
+42 56 32 
+The Odd elements are : 
+25 47 
+
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Number of inputs? : ");
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0; i<n; i++)
+    {
+        printf("Element %d- ",i);
+        scanf("%d",&a[i]);
+    }
+    
+    printf("The even Elements are:\n");
+    for(int i=0; i<n; i++)
+    {
+        if( a[i]%2 == 0)
+        {
+          printf("%d ",a[i]);
+        }
+    }
+        printf("\nThe odd Elements are:\n");
+    for(int i=0; i<n; i++)
+    {
+        if( a[i]%2 >= 1 )
+        {
+          printf("%d ",a[i]);
+        }
+    }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xFx1Vp7/image.png" alt="image" border="0"></a>
+</p>
+
 
