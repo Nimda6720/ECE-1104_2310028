@@ -131,3 +131,81 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/87xThhY/image.png" alt="image" border="0"></a>
 </p>
+
+------------------------------------
+
+## **Experiment No : 03**
+
+## **Experiment Name : Write a program in C to print all unique elements in an array. 
+
+Test Data : 
+Print all unique elements of an array: 
+------------------------------------------ 
+Input the number of elements to be stored in the array: 4 
+Input 4 elements in the array : 
+element - 0 : 3 
+element - 1 : 2 
+element - 2 : 2 
+element - 3 : 5 
+Expected Output : 
+The unique elements found in the array are: 
+3 5 
+
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Number of inputs? : ");
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0; i<n; i++)
+    {
+        printf("Element %d- ",i);
+        scanf("%d",&a[i]);
+    }
+    for(int i=0; i<n; i++)
+    {
+        for(int j=i+1; j<n; j++)
+        {
+            if(a[i]== a[j])
+            {
+                a[i]=0;
+                a[j]=0;
+            }
+        }
+    }
+    printf("Unique Elements are: ");
+       for(int i=0; i<n; i++)
+       {
+        if(a[i]!=0)
+        {
+            printf("%d ",a[i]);
+        }
+       }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xSZ3vyF/image.png" alt="image" border="0"></a>
+</p>
+
