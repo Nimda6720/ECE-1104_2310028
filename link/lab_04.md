@@ -339,5 +339,144 @@ int main()
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/QrNbGgS/image.png" alt="image" border="0"></a>
 </p>
 
+-----------------------------------------
+
+
+## **Experiment No : 07**
+
+## **Experiment Name : Write a program in C to sort an array of 0s, 1s and 2s. 
+
+Expected Output : 
+The given array is : 0 1 2 2 1 0 0 2 0 1 1 0 
+After sorting the elements in the array are: 
+0 0 0 0 0 1 1 1 1 2 2 2 
+
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the number of inputs you want to take: ");
+    scanf("%d",&n);
+    int a1[n];
+    for(int i=0; i<n; i++)
+    {
+        printf("Element %d: ",i);
+        scanf("%d",&a1[i]);
+    }
+     printf("After Sorting: ");
+    for(int i=0; i<n; i++)
+    {
+        for( int j=0; j<n-1; j++)
+        {
+            if( a1[j]>a1[j+1] )
+            {
+                int temp= a1[j];
+                a1[j]=a1[j+1];
+                a1[j+1]= temp;
+            }
+        }
+       printf("%d ",a1[i]);
+    }
+    return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/WFvFZWV/image.png" alt="image" border="0"></a>
+</p>
+
+-------------------------------
+
+## **Experiment No : 08**
+
+## **Write a program in C to insert the values in the array (sorted list). Test Data : 
+Input number of elements you want to insert (max 100): 5 
+Input 5 elements in the array in ascending order: 
+element - 0 : 2 
+element - 1 : 3 
+element - 2 : 4 
+element - 3 : 7 
+element - 4 : 8 
+Input the value to be inserted : 5 
+The existing array list is : 
+2 3 4 7 8 
+After Insert the list is : 
+2 3 4 5 7 8
+
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Number of inputs?: ");
+    scanf("%d",&n);
+    int a[n];
+    int insert;
+    printf("Number to be inserted?: ");
+    scanf("%d",&insert);
+    for(int i=0; i<n; i++)
+    {
+        printf("Elements %d: ",i);
+        scanf("%d",&a[i]);
+    }
+           printf("The existing array list is: ");
+    for( int i=0; i<n; i++)
+    {
+        printf("%d ",a[i]);
+    }
+    printf("After inserting: ");
+    for(int i=0; i<n; i++)
+    {
+        if(a[i]>insert)
+        {
+            printf("%d ",insert);
+            insert=insert+6;//I kind of managed to print the output, but didn't know how to do it correctly.
+        }
+                  printf("%d ",a[i]);
+            
+    }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/DQVnJ7p/image.png" alt="image" border="0"></a>
+</p>
 
 
