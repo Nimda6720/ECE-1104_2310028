@@ -227,5 +227,74 @@ int main()
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/vBZ6MCD/image.png" alt="image" border="0"></a>
 </p>
 
+---------------------------------------
+
+----------
+## **Experiment No : 04**
+
+## **Experiment Name : Write a program in C to check if a given number is even or odd using the
+function.**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+void number(int ar[], int a)
+{
+    for(int i=0; i<a; i++)
+    {
+        scanf("%d", &ar[i]);
+    }
+}
+void print(int ar[],int a)
+{
+       printf("Even: ");
+        for(int i=0; i<a; i++)
+    {
+        if(ar[i]%2==0)
+        {
+            printf("%d ",ar[i]);
+        }
+    }
+       printf ("\nodd: ");
+        for(int i=0; i<a; i++)
+        {
+         if (ar[i]%2>0)
+        {
+            printf("%d ",ar[i]);
+        }
+        }
+    }
+int main()
+{
+ int a;
+ printf("Number of inputs: ");
+ scanf("%d",&a);
+ int ar[a];
+ number(ar,a);
+ print(ar,a);
+ return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/7YC4QMn/image.png" alt="image" border="0"></a>
+</p>
+
+
 
 
