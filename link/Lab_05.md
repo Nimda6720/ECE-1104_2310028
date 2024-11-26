@@ -375,6 +375,87 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xLtp3R6/image.png" alt="image" border="0"></a>
 </p>
+---------------------------------------
+
+## **Experiment No : 07**
+
+## **Experiment Name : Write a C program to find the maximum and minimum of some values using
+a function that returns an array.
+Test Data :
+Input 5 values
+25
+11
+35
+65
+20
+Expected Output :
+Number of values you want to input: Input 5 values
+Minimum value is: 11
+Maximum value is: 65
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+void in(int a, int ar[])
+{
+  for(int i=0; i<a; i++)
+  {
+      printf("Element-%d: ",i);
+      scanf("%d", &ar[i]);
+  }
+}
+void sort(int a, int ar[])
+{
+    for( int i=0; i<a; i++)
+    {
+        for ( int j=0; j<a; j++)
+        {
+            if(ar[j]>ar[j+1])
+            {
+            int temp = ar[j];
+            ar[j] = ar[j+1];
+            ar[j+1] = temp;
+            }
+        }
+    }
+}
+void print(int a, int ar[])
+{
+    printf("Maximum Value is: %d",ar[a]);
+    printf("\nMinimum Value is: %d",ar[0]);
+}
+
+int main()
+{
+ int a;
+ printf("Number of inputs: ");
+ scanf("%d",&a);
+ int ar[a];
+ in(a,ar);
+ sort(a,ar);
+ print(a,ar);
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Pwk7Cnz/image.png" alt="image" border="0"></a>
+</p>
 
 
 
