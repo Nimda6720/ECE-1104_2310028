@@ -295,6 +295,88 @@ int main()
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/7YC4QMn/image.png" alt="image" border="0"></a>
 </p>
 
+---------------------------------
+
+----------
+## **Experiment No : 05**
+
+## **Experiment Name : Write a program in C to get the largest element of an array using the
+function.
+Test Data :
+Input the number of elements to be stored in the array :5
+Input 5 elements in the array :
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+element - 3 : 4
+element - 4 : 5
+Expected Output :
+The largest element in the array is : 5
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+void in(int a, int ar[])
+{
+  for(int i=0; i<a; i++)
+  {
+      printf("Element-%d: ",i);
+      scanf("%d", &ar[i]);
+  }
+}
+void sort(int a, int ar[])
+{
+    for( int i=0; i<a; i++)
+    {
+        for ( int j=0; j<a; j++)
+        {
+            if(ar[j]>ar[j+1])
+            {
+            int temp = ar[j];
+            ar[j] = ar[j+1];
+            ar[j+1] = temp;
+            }
+        }
+    }
+}
+void print(int a, int ar[])
+{
+    printf("Largest Elements: %d",ar[a-1]);
+}
+
+int main()
+{
+ int a;
+ printf("Number of inputs: ");
+ scanf("%d",&a);
+ int ar[a];
+ in(a,ar);
+ sort(a,ar);
+ print(a,ar);
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/xLtp3R6/image.png" alt="image" border="0"></a>
+</p>
+
+
 
 
 
