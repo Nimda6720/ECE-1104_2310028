@@ -371,28 +371,37 @@ After sorting the elements in the array are:
 #include<stdio.h>
 int main()
 {
-    int n;
-    printf("Enter the number of inputs you want to take: ");
-    scanf("%d",&n);
-    int a1[n];
-    for(int i=0; i<n; i++)
+    int input;
+    printf("Number of inputs: ");
+    scanf("%d",&input);
+    int a[input+1];
+    for (int i=0; i<input; i++)
     {
-        printf("Element %d: ",i);
-        scanf("%d",&a1[i]);
+        printf("Elements-%d: ",i);
+        scanf("%d",&a[i]);
     }
-     printf("After Sorting: ");
-    for(int i=0; i<n; i++)
+    int insert;
+    printf("Value to be inserted: ");
+    scanf("%d",&insert);
+    
+    printf("The existing list of array is:\n");
+    for (int i=0; i<input; i++)
     {
-        for( int j=0; j<n-1; j++)
-        {
-            if( a1[j]>a1[j+1] )
-            {
-                int temp= a1[j];
-                a1[j]=a1[j+1];
-                a1[j+1]= temp;
-            }
-        }
-       printf("%d ",a1[i]);
+        printf("%d ",a[i]);
+    }
+    
+    int i=input-1;
+    while(i>=0 && a[i]>insert)
+    {
+        a[i+1]=a[i];
+        i--;
+    }
+    a[i+1]=insert;
+    
+    printf("\nafter insert:\n");
+    for (int i=0; i<input+1; i++)
+    {
+        printf("%d ",a[i]);
     }
     return 0;
 }
@@ -423,7 +432,7 @@ The frequency of all elements of an array :
 
 **
 
-## **Submission Date : 1 December 2024**
+## **Submission Date : 22 November 2024**
 
 ----------
 
@@ -507,7 +516,7 @@ After Insert the list is :
 
 **
 
-## **Submission Date : 22 November 2024**
+## **Submission Date : 1 December 2024**
 
 ----------
 
