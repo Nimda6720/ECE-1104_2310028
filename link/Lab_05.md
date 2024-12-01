@@ -480,7 +480,7 @@ After Insert the list is :
 2 3 4 5 7 8
 **
 
-## **Submission Date : 22 November 2024**
+## **Submission Date : 1 December 2024**
 
 ----------
 
@@ -562,6 +562,105 @@ int main()
 ## **Output :**
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/7NzCNDp/image.png" alt="image" border="0"></a>
+</p>
+
+----------------------
+
+## **Experiment No : 08**
+
+## **Experiment Name :
+Write a C program to perform the following operations on two n ×m
+matrices using functions:
+a) Addition
+b) Subtraction
+
+**
+
+## **Submission Date : 1 December 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include <stdio.h>
+void in( int n, int a, int ar[n][a])
+{
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<a; j++)
+        {
+         scanf("%d",&ar[i][j]);
+        }
+    }
+    printf("\n");
+}
+
+void in2( int n, int a, int ar2[n][a])
+{
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<a; j++)
+        {
+         scanf("%d",&ar2[i][j]);
+        }
+    }
+    printf("\n");
+}
+
+void result( int n, int a,int ar[n][a],int ar2[n][a],int res[n][a])
+{
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<a; j++)
+        {
+         res[i][j]=ar[i][j] + ar2[i][j];
+        }
+    }
+}
+
+void out( int n, int a, int res[n][a])
+{
+    printf("Result of addition:\n");
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<a; j++)
+        {
+         printf("%d ",res[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int main()
+{
+    int n,a;
+    printf("Number of rows? ");
+    scanf("%d",&n);
+    printf("Number of columns? ");
+    scanf("%d",&a);
+    int ar[n][a];
+    int ar2[n][a];
+    int res[n][a];
+    in(n,a,ar);
+    in2(n,a,ar2);
+    result(n,a,ar,ar2,res);
+    out(n,a,res);
+    return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/pvWRMyb/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>a image</a><br />
 </p>
 
 
