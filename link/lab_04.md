@@ -371,37 +371,29 @@ After sorting the elements in the array are:
 #include<stdio.h>
 int main()
 {
-    int input;
-    printf("Number of inputs: ");
-    scanf("%d",&input);
-    int a[input+1];
-    for (int i=0; i<input; i++)
+    int n;
+    printf("Enter the number of inputs you want to take: ");
+    scanf("%d",&n)
+    int a[n];
+    for(int i=0; i<n; i++)
     {
-        printf("Elements-%d: ",i);
-        scanf("%d",&a[i]);
+        printf("Element %d: ",i);
+        scanf("%d",&a1[i]);
     }
-    int insert;
-    printf("Value to be inserted: ");
-    scanf("%d",&insert);
-    
-    printf("The existing list of array is:\n");
-    for (int i=0; i<input; i++)
+     printf("After Sorting: ");
+    for(int i=0; i<n; i++)
     {
-        printf("%d ",a[i]);
+        for( int j=i+1; j<n; j++)
+        {
+            if( a1[i]>a1[j] )
+            {
+                int temp= a1[i];
+                a1[i]=a1[j];
+                a1[j]= temp;
+            }
+        }
+       printf("%d ",a1[i]);
     }
-    
-    int i=input-1;
-    while(i>=0 && a[i]>insert)
-    {
-        a[i+1]=a[i];
-        i--;
-    }
-    a[i+1]=insert;
-    
-    printf("\nafter insert:\n");
-    for (int i=0; i<input+1; i++)
-    {
-        printf("%d ",a[i]);
     }
     return 0;
 }
@@ -414,7 +406,7 @@ int main()
 
 -------------------------------
 
-## **Experiment No : 08**
+## **Experiment No : 04**
 
 ## **
 Write a program in C to count the frequency of each element of an array. Test Data : 
@@ -498,7 +490,7 @@ int main()
 </p>
 ---------------------------
 
-## **Experiment No : 04**
+## **Experiment No : 08**
 
 ## **Write a program in C to insert the values in the array (sorted list). Test Data : 
 Input number of elements you want to insert (max 100): 5 
@@ -534,33 +526,37 @@ After Insert the list is :
 #include<stdio.h>
 int main()
 {
-    int n;
-    printf("Number of inputs?: ");
-    scanf("%d",&n);
-    int a[n];
-    int insert;
-    printf("Number to be inserted?: ");
-    scanf("%d",&insert);
-    for(int i=0; i<n; i++)
+    int input;
+    printf("Number of inputs: ");
+    scanf("%d",&input);
+    int a[input+1];
+    for (int i=0; i<input; i++)
     {
-        printf("Elements %d: ",i);
+        printf("Elements-%d: ",i);
         scanf("%d",&a[i]);
     }
-           printf("The existing array list is: ");
-    for( int i=0; i<n; i++)
+    int insert;
+    printf("Value to be inserted: ");
+    scanf("%d",&insert);
+    
+    printf("The existing list of array is:\n");
+    for (int i=0; i<input; i++)
     {
         printf("%d ",a[i]);
     }
-    printf("After inserting: ");
-    for(int i=0; i<n; i++)
+    
+    int i=input-1;
+    while(i>=0 && a[i]>insert)
     {
-        if(a[i]>insert)
-        {
-            printf("%d ",insert);
-            insert=insert+6;//I kind of managed to print the output, but didn't know how to do it correctly.
-        }
-                  printf("%d ",a[i]);
-            
+        a[i+1]=a[i];
+        i--;
+    }
+    a[i+1]=insert;
+    
+    printf("\nafter insert:\n");
+    for (int i=0; i<input+1; i++)
+    {
+        printf("%d ",a[i]);
     }
     return 0;
 }
