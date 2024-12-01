@@ -407,6 +407,90 @@ int main()
 
 ## **Experiment No : 08**
 
+## **
+Write a program in C to count the frequency of each element of an array. Test Data : 
+Input the number of elements to be stored in the array :3 
+Input 3 elements in the array : 
+element - 0 : 25 
+element - 1 : 12 
+element - 2 : 43 
+Expected Output : 
+The frequency of all elements of an array : 
+25 occurs 1 times 
+12 occurs 1 times 
+43 occurs 1 times
+
+
+**
+
+## **Submission Date : 1 December 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+int main()
+{
+    int input,count;
+    printf("Number of Elemnets you want to input: ");
+    scanf("%d",&input);
+    
+    int a[input],fre[input];
+    
+    for (int i=0; i<input; i++)
+    {
+        printf("Elements -%d: ",i);
+        scanf("%d",&a[i]);
+        fre[i]=-1;
+    }
+
+    for (int i=0; i<input; i++)
+    {
+        count=1;
+        for (int j=i+1; j<input; j++)
+        {
+            if(a[i]==a[j])
+            { 
+                count++;
+                fre[j]=0;
+            }
+        }
+        if (fre[i]!=0)
+        {
+          fre[i]=count;
+        }
+    }
+    
+    printf("The frequency of all the elements of an array\n");
+    for (int i=0; i<input; i++)
+    {
+      if(fre[i]!=0)
+        {  
+         printf("%d occurs %d times\n",a[i],fre[i]);
+        }
+    }
+    return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/DQVnJ7p/image.png" alt="image" border="0"></a>
+</p>
+---------------------------
+
+## **Experiment No : 04**
+
 ## **Write a program in C to insert the values in the array (sorted list). Test Data : 
 Input number of elements you want to insert (max 100): 5 
 Input 5 elements in the array in ascending order: 
@@ -476,7 +560,6 @@ int main()
 
 ## **Output :**
 <p align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/DQVnJ7p/image.png" alt="image" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/wK6y0FP/image.png" alt="image" border="0"></a>
 </p>
-
 
