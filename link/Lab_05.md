@@ -457,6 +457,112 @@ int main()
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Pwk7Cnz/image.png" alt="image" border="0"></a>
 </p>
 
+------------------------------
+
+## **Experiment No : 08**
+
+## **Experiment Name :
+
+Write a program in C to insert the values in the array using function(sorted
+list).
+Test Data :
+Input number of elements you want to insert (max 100): 5
+Input 5 elements in the array in ascending order:
+element - 0 : 2
+element - 1 : 3
+element - 2 : 4
+element - 3 : 7
+element - 4 : 8
+Input the value to be inserted : 5
+The existing array list is :
+2 3 4 7 8
+After Insert the list is :
+2 3 4 5 7 8
+**
+
+## **Submission Date : 22 November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```C
+#include<stdio.h>
+
+void in(int input,int a[])
+{
+    for (int i=0; i<input; i++)
+    {
+        printf("Element -0%d: ",i);
+        scanf("%d",&a[i]);
+    }
+} 
+
+void ins(int insert)
+{
+    printf("Value to be inserted: ");
+    scanf("%d", insert);
+}
+
+void out1(int input,int a[])
+{
+    printf("The number of existing array list is:\n");
+    for (int i=0; i<input; i++)
+    {
+        printf("%d ",a[i]);
+    }
+    printf("\n");
+}
+
+void sort(int input,int a[],int insert)
+{ 
+    int i=input-1;
+    while(i>=0 && a[i]>insert)
+    {
+        a[i+1]=a[i];
+        i--;
+    }   
+    a[i+1]=insert;
+}
+
+void out2(int input, int a[])
+{   
+    printf("\nAfter insert the list is: \n");
+    for (int i=0; i<input+1; i++)
+    {
+       printf("%d ",a[i]);
+    }
+    printf("\n");
+}
+
+int main()
+{
+    int input,insert;
+    printf("Number of inputs: ");
+    scanf("%d",&input);
+    int a[input+1];
+    in(input,a);
+    ins(&insert);
+    out1(input,a);
+    sort(input,a,insert);
+    out2(input,a);
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/7NzCNDp/image.png" alt="image" border="0"></a>
+</p>
 
 
 
