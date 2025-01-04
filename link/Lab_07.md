@@ -1,4 +1,4 @@
-## **Experiment No : 01**
+![image](https://github.com/user-attachments/assets/d603c88e-a901-4748-b08b-3a9094686b69)## **Experiment No : 01**
 
 ## **Experiment Name :  Write a program in C to add two numbers using pointers.**
 
@@ -215,3 +215,253 @@ int swap(int *p1, int *p2)
 
 
 ----------
+## **Experiment No : 06**
+
+## **Experiment Name : Write a program in C to sort an array using a pointer.**
+
+## **Submission Date : 15 December 2024**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+void sort(int *p , int n);
+
+int main()
+{
+    int size;
+    printf("Enter the size of an array: ");
+    scanf("%d",&size);
+
+    int array[size];
+    for (int i = 0; i < size; i++)
+    {
+        printf("Element_%d: ", i);
+        scanf("%d", &array[i]);
+    }
+
+    sort(&array[0], size);
+}
+
+void sort(int *p , int n)
+{
+    for (int i = 0; i < n-1; i++)
+    {
+        for(int j = 0; j < n-1-i; j++)
+        {
+            if (*(p+j)>*(p+1+j))
+            {
+                int temp = *(p+j+1);
+                *(p+1+j) = *(p+j);
+                *(p+j) = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < n;i++)
+    {
+        printf("%d ", *(p+i));
+    }
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/B6pQVCK"><img src="https://i.ibb.co.com/PWLPZ6z/image.png" alt="image" border="0"></a>
+</p>
+
+
+
+----------
+## **Experiment No : 07**
+
+## **Experiment Name : Write a C program to demonstrate how a function returns a pointer.**
+
+## **Submission Date : 5 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+int *sum(int *p1, int *p2);
+
+int main(void)
+{
+    int num1, num2;
+
+    printf("Enter two number: ");
+    scanf("%d %d",&num1, &num2);
+    int *p = sum(&num1, &num2);
+
+    printf("%d is greater.\n", *p);
+}
+
+int *sum(int *p1, int *p2)
+{
+    if (*p1 > *p2)
+    {
+        return p1;
+    }
+    else if (*p1 < *p2)
+    {
+        return p2;
+    }
+    printf("Two number are equal\n");
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/Tq1BbLk"><img src="https://i.ibb.co.com/gFdMPV3/image.png" alt="image" border="0"></a>
+</p>
+----------
+## **Experiment No : 08**
+
+## **Experiment Name :  Write a program in C to compute the sum of all elements in an array using pointers.**
+
+## **Submission Date : 5 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+void sum(int *p, int n);
+
+int main(void)
+{
+    int n;
+    printf("Enter the size of array: ");
+    scanf("%d", &n);
+
+    int array[n];
+    for (int i = 0; i < n; i++)
+    {
+        printf("Element_%d: ", i);
+        scanf("%d", &array[i]);
+    }
+
+    sum(&array[0], n);
+
+}
+
+void sum(int *p, int n)
+{
+    int sum1=0;
+    for (int i = 0; i < n; i++)
+    {
+        sum1 += *(p+i);
+    }
+
+    printf("Sum: %d\n", sum1);
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/TbxZLdh"><img src="https://i.ibb.co.com/YyF6Zwj/image.png" alt="image" border="0"></a>
+</p>
+----------
+## **Experiment No : 09**
+
+## **Experiment Name : Write a program in C to print the elements of an array in reverse  order. **
+
+## **Submission Date : 5 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+void reverse(int *p, int n);
+
+int main(void)
+{
+    int n;
+    printf("Enter the size of array: ");
+    scanf("%d", &n);
+
+    int array[n];
+    for (int i = 0; i < n; i++)
+    {
+        printf("Element_%d: ", i);
+        scanf("%d", &array[i]);
+    }
+
+    reverse(&array[n-1], n);
+}
+
+void reverse(int *p, int n)
+{
+    printf("Reverse: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ",*(p-i));
+    }
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/jVGgDcp"><img src="https://i.ibb.co.com/6vbgF3d/image.png" alt="image" border="0"></a>
+</p>
+
+
+
+
+----------
+## **Experiment No : 10**
+
+## **Experiment Name : Write a program in C to print all the alphabets using a pointer.**
+
+## **Submission Date : 15 December 2024**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+int main()
+{
+    int array[26];
+    for (int i = 0; i <=25; i++)
+    {
+        array[i] = 65+i;
+    }
+    int *p = &array[0];
+
+    for(int i = 0; i <= 25; i++)
+    {
+        printf("%c ", *(p+i));
+    }
+    printf("\n");
+
+    int array1[26];
+    for (int i = 0; i <=25; i++)
+    {
+        array[i] = 97+i;
+    }
+    int *p1 = &array[0];
+
+    for(int i = 0; i <= 25; i++)
+    {
+        printf("%c ", *(p1+i));
+    }
+
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/WgJsPzL"><img src="https://i.ibb.co.com/jgXHWwS/image.png" alt="image" border="0"></a>
+</p>
+
+
+
+----------
+
