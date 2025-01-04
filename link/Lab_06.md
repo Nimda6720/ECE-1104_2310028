@@ -46,7 +46,7 @@ void check(int num)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/d80dfc7b-53f3-43a0-b811-3a2bef3db5f8">
+[url=https://ibb.co.com/mCGyFX4][img]https://i.ibb.co.com/Rp964Bc/image.png[/img][/url]
 </p>
 
 
@@ -58,7 +58,7 @@ void check(int num)
 
 ## **Experiment Name :  A number is prime or not.**
 
-## **Submission Date : 25 December 2024**
+## **Submission Date : 4 January 2025**
 
 ----------
 
@@ -114,7 +114,7 @@ void prime(int m)
 
 ## **Experiment Name :  Fibonacci sequence & summation.**
 
-## **Submission Date : 25 December 2024**
+## **Submission Date : 4 January 2025**
 
 ----------
 
@@ -185,7 +185,7 @@ void check(int num)
 
 ## **Experiment Name :  Get power of a number using function.**
 
-## **Submission Date : 25 December 2024**
+## **Submission Date : 4 January 2025**
 
 ----------
 
