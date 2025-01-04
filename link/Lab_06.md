@@ -46,7 +46,7 @@ void check(int num)
 
 ## **Output :**
 <p align="center">
-[url=https://ibb.co.com/mCGyFX4][img]https://i.ibb.co.com/Rp964Bc/image.png[/img][/url]
+<a href="https://ibb.co.com/mCGyFX4"><img src="https://i.ibb.co.com/Rp964Bc/image.png" alt="image" border="0"></a>
 </p>
 
 
@@ -103,7 +103,7 @@ void prime(int m)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/43a4cc08-09d9-477f-8a09-79cee1ba2961">
+<a href="https://ibb.co.com/wRSKytR"><img src="https://i.ibb.co.com/g3SDyY3/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload pic</a><br />
 </p>
 
 
