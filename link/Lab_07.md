@@ -79,7 +79,7 @@ float sum(float *p1, float *p2, float *p3)
 
 ## **Experiment Name :  Write a program in C to find the maximum number between two  numbers using a pointer.**
 
-## **Submission Date : 15 December 2024**
+## **Submission Date : 5 January 2025**
 
 ----------
 
@@ -118,8 +118,58 @@ int sum(float *p1, float *p2)
 
 ## **Output :**
 <p align="center">
-<a href="https://ibb.co.com/DGvp6Kv"><img src="https://i.ibb.co.com/4sXdDNX/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'>remove duplicated</a><br />
+<a href="https://ibb.co.com/DGvp6Kv"><img src="https://i.ibb.co.com/4sXdDNX/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'></a><br />
 </p>
+
+
+----------
+## **Experiment No : 04**
+
+## **Experiment Name : Write a program in C to store n elements in an array and print the  elements using a pointer.**
+
+## **Submission Date : 5 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+void print(int *p, int n);
+
+int main(void)
+{
+    int n;
+    printf("Enter the size of array: ");
+    scanf("%d", &n);
+
+    int array[n];
+    for (int i = 0; i < n; i++)
+    {
+        printf("Element_%d: ", i);
+        scanf("%d", &array[i]);
+    }
+
+    print(&array[0], n);
+
+
+}
+
+void print(int *p,int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", *(p+i));
+
+    }
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/MDqB979"><img src="https://i.ibb.co.com/JRX3CHC/image.png" alt="image" border="0"></a>
+</p>
+
 
 
 ----------
