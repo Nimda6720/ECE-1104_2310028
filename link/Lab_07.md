@@ -33,7 +33,7 @@ float sum(float *p1, float *p2)
 
 ## **Output :**
 <p align="center">
-<a href="https://ibb.co.com/87S0mpz"><img src="https://i.ibb.co.com/FDjKhMs/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload</a><br />
+<a href="https://ibb.co.com/87S0mpz"><img src="https://i.ibb.co.com/FDjKhMs/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 </p>
 
 ----------
@@ -168,6 +168,48 @@ void print(int *p,int n)
 ## **Output :**
 <p align="center">
 <a href="https://ibb.co.com/MDqB979"><img src="https://i.ibb.co.com/JRX3CHC/image.png" alt="image" border="0"></a>
+</p>
+
+
+
+----------
+## **Experiment No : 05**
+
+## **Experiment Name :  Write a program in C to swap elements using call by reference.**
+
+## **Submission Date : 5 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+int swap(int *p1, int *p2);
+
+int main(void)
+{
+    int num1, num2;
+
+    printf("Enter two number: ");
+    scanf("%d %d",&num1, &num2);
+
+    swap(&num1, &num2);
+}
+
+int swap(int *p1, int *p2)
+{
+    int temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+    printf("%d %d\n",*p1, *p2);
+    return 0;
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/PN5TvGC"><img src="https://i.ibb.co.com/565Yghc/image.png" alt="image" border="0"></a>
 </p>
 
 
