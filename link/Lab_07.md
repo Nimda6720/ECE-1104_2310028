@@ -1,9 +1,8 @@
-
 ## **Experiment No : 01**
 
 ## **Experiment Name :  Write a program in C to add two numbers using pointers.**
 
-## **Submission Date : 15 December 2024**
+## **Submission Date : 5 January 2024**
 
 ----------
 
@@ -34,9 +33,8 @@ float sum(float *p1, float *p2)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/2230e0cb-825a-48c6-b49a-dd7ebe7ea279">
+<a href="https://ibb.co.com/87S0mpz"><img src="https://i.ibb.co.com/FDjKhMs/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload</a><br />
 </p>
-
 
 
 ----------
@@ -44,7 +42,7 @@ float sum(float *p1, float *p2)
 
 ## **Experiment Name : Write a program in C to add three numbers using pointers.**
 
-## **Submission Date : 15 December 2024**
+## **Submission Date : 5 January 2024**
 
 ----------
 
@@ -73,7 +71,7 @@ float sum(float *p1, float *p2, float *p3)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/715bb5e2-17d2-4db1-9a56-405b7867c124">
+<a href="https://ibb.co.com/P4m7wKY"><img src="https://i.ibb.co.com/RPvxzfS/image.png" alt="image" border="0"></a>
 </p>
 
 
