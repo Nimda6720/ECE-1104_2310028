@@ -174,7 +174,7 @@ void check(int num)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/b90c7e97-7537-45f5-8dd1-b8ea81635009">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/zX52HHL/image.png" alt="image" border="0"></a>
 </p>
 
 
@@ -218,5 +218,5 @@ int powerf(int base, int power)
 
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/3b48ff25-510e-461f-8b7b-713d49ef944d">
+<a href="https://ibb.co.com/BBZ2ZYJ"><img src="https://i.ibb.co.com/Tt8M8NG/image.png" alt="image" border="0"></a>
 </p>
