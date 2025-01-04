@@ -75,3 +75,51 @@ float sum(float *p1, float *p2, float *p3)
 
 
 ----------
+## **Experiment No : 03**
+
+## **Experiment Name :  Write a program in C to find the maximum number between two  numbers using a pointer.**
+
+## **Submission Date : 15 December 2024**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+
+int sum(float *p1, float *p2);
+
+int main(void)
+{
+    float num1, num2;
+
+    printf("Enter two number: ");
+    scanf("%f %f",&num1, &num2);
+    sum(&num1, &num2);
+}
+
+int sum(float *p1, float *p2)
+{
+    if (*p1 > *p2)
+    {
+        printf("%.2f is greater than %.2f\n", *p1, *p2);
+    }
+    else if (*p1 < *p2)
+    {
+        printf("%.2f is greater than %.2f\n", *p2, *p1);
+    }
+    else{
+        printf("Two numbers are equal\n");
+    }
+    return 0;
+
+}
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/DGvp6Kv"><img src="https://i.ibb.co.com/4sXdDNX/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'>remove duplicated</a><br />
+</p>
+
+
+----------
