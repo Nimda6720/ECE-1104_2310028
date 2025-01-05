@@ -103,7 +103,7 @@ void prime(int m)
 
 ## **Output :**
 <p align="center">
-<a href="https://ibb.co.com/wRSKytR"><img src="https://i.ibb.co.com/g3SDyY3/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload pic</a><br />
+<a href="https://ibb.co.com/wRSKytR"><img src="https://i.ibb.co.com/g3SDyY3/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 </p>
 
 
