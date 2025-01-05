@@ -19,7 +19,7 @@ int num1 = 0;
 int num2 = 1;
 int num3 = 0;
 
-int main(void)
+int main()
 {
     int num;
     printf("Enter a number: ");
