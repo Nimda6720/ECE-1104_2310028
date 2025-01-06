@@ -48,11 +48,11 @@
 | Lab No. | Title | Link | Codeforces |
 | :---: | :---: | :---: |:---: |
 | 00 |                    Code Forces                   | [Code Forces]( https://codeforces.com/submissions/Nimda_672) 
-| 01 |                    LAB 1                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md ) | |
-| 02 |                    LAB 2                   | [Lab_02](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )   | | 
-| 03 |                    LAB 3                   | [Lab_03](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/Lab_3.md)         | |
-| 04 |                    LAB 4                   | [Lab_04](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_04.md)   | |
-| 05 |                    LAB 5                   | [Lab_05](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_05.md)   | |
-| 06 |                    LAB 6                   | [Lab_06](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   | |
-| 07 |                    LAB 7                   | [Lab_07](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   | |
+| 01 |                    LAB 1                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md ) |0|
+| 02 |                    LAB 2                   | [Lab_02](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )   |0| 
+| 03 |                    LAB 3                   | [Lab_03](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/Lab_3.md)         |2|
+| 04 |                    LAB 4                   | [Lab_04](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_04.md)   |3|
+| 05 |                    LAB 5                   | [Lab_05](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_05.md)   |2|
+| 06 |                    LAB 6                   | [Lab_06](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   |0|
+| 07 |                    LAB 7                   | [Lab_07](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   |2|
 </div>
