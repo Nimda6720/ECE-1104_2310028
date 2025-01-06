@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d603c88e-a901-4748-b08b-3a9094686b69)## **Experiment No : 01**
+## **Experiment No : 01**
 
 ## **Experiment Name :  Write a program in C to add two numbers using pointers.**
 
@@ -12,7 +12,7 @@
 
 float sum(float *p1, float *p2);
 
-int main(void)
+int main()
 {
     float num1, num2;
 
@@ -51,7 +51,7 @@ float sum(float *p1, float *p2)
 
 float sum(float *p1, float *p2, float *p3);
 
-int main(void)
+int main()
 {
     float num1, num2, num3;
 
@@ -89,7 +89,7 @@ float sum(float *p1, float *p2, float *p3)
 
 int sum(float *p1, float *p2);
 
-int main(void)
+int main()
 {
     float num1, num2;
 
@@ -137,7 +137,7 @@ int sum(float *p1, float *p2)
 
 void print(int *p, int n);
 
-int main(void)
+int main()
 {
     int n;
     printf("Enter the size of array: ");
@@ -187,7 +187,7 @@ void print(int *p,int n)
 
 int swap(int *p1, int *p2);
 
-int main(void)
+int main()
 {
     int num1, num2;
 
@@ -219,7 +219,7 @@ int swap(int *p1, int *p2)
 
 ## **Experiment Name : Write a program in C to sort an array using a pointer.**
 
-## **Submission Date : 15 December 2024**
+## **Submission Date : 5 January 2025**
 
 ----------
 
@@ -289,7 +289,7 @@ void sort(int *p , int n)
 
 int *sum(int *p1, int *p2);
 
-int main(void)
+int main()
 {
     int num1, num2;
 
@@ -318,6 +318,9 @@ int *sum(int *p1, int *p2)
 <p align="center">
 <a href="https://ibb.co.com/Tq1BbLk"><img src="https://i.ibb.co.com/gFdMPV3/image.png" alt="image" border="0"></a>
 </p>
+
+
+
 ----------
 ## **Experiment No : 08**
 
@@ -332,7 +335,7 @@ int *sum(int *p1, int *p2)
 #include<stdio.h>
 void sum(int *p, int n);
 
-int main(void)
+int main()
 {
     int n;
     printf("Enter the size of array: ");
@@ -365,6 +368,9 @@ void sum(int *p, int n)
 <p align="center">
 <a href="https://ibb.co.com/TbxZLdh"><img src="https://i.ibb.co.com/YyF6Zwj/image.png" alt="image" border="0"></a>
 </p>
+
+
+
 ----------
 ## **Experiment No : 09**
 
@@ -379,7 +385,7 @@ void sum(int *p, int n)
 #include<stdio.h>
 void reverse(int *p, int n);
 
-int main(void)
+int main()
 {
     int n;
     printf("Enter the size of array: ");
@@ -418,7 +424,7 @@ void reverse(int *p, int n)
 
 ## **Experiment Name : Write a program in C to print all the alphabets using a pointer.**
 
-## **Submission Date : 15 December 2024**
+## **Submission Date : 5 January 2025**
 
 ----------
 
