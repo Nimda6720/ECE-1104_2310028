@@ -54,4 +54,5 @@
 | 05 |                    LAB 5                   | [Lab_05](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_05.md)   |2|
 | 06 |                    LAB 6                   | [Lab_06](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   |1|
 | 07 |                    LAB 7                   | [Lab_07](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   |2|
+| 08 |                    LAB 8                   | [Lab_08](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_8.md)   |3|
 </div>
