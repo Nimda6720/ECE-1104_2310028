@@ -93,3 +93,61 @@ void reverse(int *p, int n)
 <p align="center">
 <a href="https://ibb.co.com/jVGgDcp"><img src="https://i.ibb.co.com/6vbgF3d/image.png" alt="image" border="0"></a>
 </p>
+
+
+New Problems:
+-------------------
+
+## **Experiment No : 01**
+
+## **Experiment Name :  Write a program in C to sort all elements in an array using pointers.**
+
+## **Submission Date : 13 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include <stdio.h>
+void sort(int *p, int n);
+int main()
+{ 
+  int n;
+  printf("Number of inputs: ");
+  scanf("%d", &n);
+  int a[n];
+  for (int i=0; i<n; i++)
+  {
+    printf("Element_%d: ", i);
+    scanf("%d", &a[i]);
+  }
+  sort(&a[0],n);
+}
+void sort(int *p , int n)
+{
+    for (int i = 0; i < n-1; i++)
+    {
+        for(int j = 0; j < n-1-i; j++)
+        {
+            if (*(p+j)>*(p+1+j))
+            {
+                int temp = *(p+j+1);
+                *(p+1+j) = *(p+j);
+                *(p+j) = temp;
+            }
+        }
+    }
+    printf ("The elements of array after printing\n");
+    for (int i = 0; i < n;i++)
+    {
+        printf("\nElement_%d:",i);
+        printf("%d ", *(p+i));
+    }
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/nmJw560"><img src="https://i.ibb.co.com/zxvm0Q5/image.png" alt="image" border="0"></a>
+</p>
