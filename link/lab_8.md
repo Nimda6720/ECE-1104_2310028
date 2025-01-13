@@ -151,3 +151,42 @@ void sort(int *p , int n)
 <p align="center">
 <a href="https://ibb.co.com/nmJw560"><img src="https://i.ibb.co.com/zxvm0Q5/image.png" alt="image" border="0"></a>
 </p>
+
+------------------------
+
+-------------------
+
+## **Experiment No : 01**
+
+## **Experiment Name :  Write a program in C to sort all elements in an array using pointers.**
+
+## **Submission Date : 13 January 2025**
+
+----------
+
+## **Code :**
+```C
+#include<stdio.h>
+int gcd( int m, int n);
+int main()
+{
+    int r,m,n;
+    printf("Enter two numbers:");
+    scanf("%d %d",&m,&n);
+    printf("The gcd is %d",gcd(m,n));
+    return 0;
+}
+int gcd( int m, int n)
+{
+    if(n==0)  
+        return m;
+    else 
+    return gcd(n, m%n);
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/fqVLqhY"><img src="https://i.ibb.co.com/wBZjB9N/image.png" alt="image" border="0"></a>
+</p>
