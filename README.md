@@ -56,5 +56,6 @@
 | 06 |                    LAB 6                   | [Lab_06](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   |1|
 | 07 |                    LAB 7                   | [Lab_07](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   |2|
 | 08 |                    LAB 8                   | [Lab_08](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_8.md)   |3|
-| 09 |                    LAB 9                   | [Lab_08](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab%209.md)   |2|
+| 09 |                    LAB 9                   | [Lab_09](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab%209.md)   |2|
+| 10 |                    LAB 10                   | [Lab_010](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_10.md)   |3|
 </div>
