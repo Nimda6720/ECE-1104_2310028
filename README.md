@@ -48,15 +48,15 @@
 
 | Lab No. | Title | Link | Codeforces |
 | :---: | :---: | :---: |:---: |
-| 01 |                    LAB 1                   | [Lab_01]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md ) |0|
-| 02 |                    LAB 2                   | [Lab_02](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )   |0| 
-| 03 |                    LAB 3                   | [Lab_03](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/Lab_3.md)         |2|
-| 04 |                    LAB 4                   | [Lab_04](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_04.md)   |1|
-| 05 |                    LAB 5                   | [Lab_05](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_05.md)   |2|
-| 06 |                    LAB 6                   | [Lab_06](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   |1|
-| 07 |                    LAB 7                   | [Lab_07](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   |2|
-| 08 |                    LAB 8                   | [Lab_08](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_8.md)   |3|
-| 09 |                    LAB 9                   | [Lab_09](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab%209.md)   |2|
+| 01 |                    LAB 1                   | [Basic Input-output and Using Conditions and Loops]( https://github.com/Nimda6720/ECE-1140_2310028/blob/main/link/Lab_01.md ) |0|
+| 02 |                    LAB 2                   | [Using Nested Loops and Printing Patterns](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_2.md )   |0| 
+| 03 |                    LAB 3                   | [Pattern Generation Using Nested Loops in C](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/Lab_3.md)         |2|
+| 04 |                    LAB 4                   | [Array Manipulation and Processing Techniques in C](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_04.md)   |1|
+| 05 |                    LAB 5                   | [Functions](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_05.md)   |2|
+| 06 |                    LAB 6                   | [Recursion](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_06.md)   |1|
+| 07 |                    LAB 7                   | [Pointers](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_07.md)   |2|
+| 08 |                    LAB 8                   | [Recursion & Pointers](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/lab_8.md)   |3|
+| 09 |                    LAB 9                   | [Strings](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab%209.md)   |2|
 | 10 |                    LAB 10                   | [Lab_10](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/Lab_10.md)   |3|
-| 11 |                    LAB 11                   | [Lab_11](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/11.md)   | |
+| 11 |                    LAB 11                   | [Structure](https://github.com/Nimda6720/ECE-1104_2310028/blob/main/link/11.md)   | |
 </div>
